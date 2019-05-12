@@ -1,0 +1,223 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.index-title-position {
+    padding-top: 25px;
+    background-image: url(/Assets/Images/Background/stripe-vertical.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+
+.index-text-left {
+    padding-left: 2em;
+}
+
+.index-text-right {
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+}
+
+.wherewhen-image {
+    background-image: url(/Assets/Images/Background/Killearn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6em;
+}
+
+.wherewhen-title {
+    padding-top: 1em;
+}
+
+.wherewhen-text {
+    color: white;
+}
+
+.where-when-map {
+    
+}
+
+@media (max-width: 767px) {
+    .heart-glyphs {
+        font-size: 30px;
+        display: inline;
+        padding-top: 5px;
+    }
+
+    .cat-icon-nav {
+        display: none;
+    }
+
+    .cat-icon {
+        padding-bottom: 12px;
+        width: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .heart-glyphs {
+        font-size: 40px;
+        display: none;
+    }
+
+    .cat-icon {
+        display: none;
+        margin-bottom: 30px;
+        width: 30px;
+    }
+}
+
+.cat-icon-nav {
+    padding-top: 10px;
+    width: 30px;
+}
+
+@media (min-width: 768px) {
+    .nav-text {
+        font-size: 20px;
+    }
+}
+
+#index {
+    /*background-image: url(/Assets/Images/Background/stripe-vertical.jpg);*/
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    color: black;
+    background-attachment: fixed;
+}
+
+.index-mobile {
+    display: none;
+}
+
+#error {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    background-attachment: fixed;
+}
+
+#rsvp {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    background-attachment: fixed;
+}
+
+
+@media (max-width: 1024px) {
+    #index {
+        background-size: cover;
+    }
+
+    #rsvp {
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .index-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 576px){
+    
+}
+
+
+@media (max-width: 576px) {
+    html, #rsvp, #wherewhen {
+        height: 110%;
+    }
+
+    #index {
+        background-image: url(/Assets/Images/Background/stripe.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    #rsvp {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+    }
+
+    .index-desktop {
+        display: none;
+    }
+
+    .index-mobile {
+        display: initial;
+    }
+}
+
+
+html,
+body {
+    height: 100%;
+}
+.wherewhen {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) );
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .wherewhen {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) );
+        align-items: center;
+        margin: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .flyer {
+        padding-bottom: 20px;
+    }
+}
+
+.panel {
+    background-color: transparent;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 200;
+}
+
+.menu {
+    background-color: #f8f8f8;
+}
