@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'E:\Users\Graeme\Documents\Visual Studio 2019\Projects\Wedding-Web-App-master\Wedding Website\Models\RSVP.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\604002547\OneDrive - BT Plc\source\repos\Wedding-Web-App-master\Wedding Website\Models\RSVP.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

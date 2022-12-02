@@ -4,6 +4,7 @@
         var n = $(".AdditionalRSVP").length;
     });
 
+    // ToDo - put this in a partial view and return the content from a controller, fix after deploy, need to deploy today to have it ready for guests.
     $("#AddRSVP").click(function () {
         var n = $(".AdditionalRSVP").length;
         $("#AdditionalRSVPHolder").append(
